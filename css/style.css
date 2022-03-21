@@ -95,7 +95,7 @@ footer{
 
 
 .banner{
-    background-image: url(./content/banner-image.png);
+    background-image: url(../content/banner-image.png);
     width: auto;
     height: 250px;
     background-position: center;
