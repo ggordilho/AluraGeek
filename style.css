@@ -308,3 +308,38 @@ main ul {
 }
 
 
+/* PÁGINA DE DESCRIÇÃO DO PRODUTO */ 
+
+.product-description{
+    display: flex;
+    flex-direction: column;
+
+}
+.product-description img{
+    width: 100%;
+}
+
+.text-description{
+    margin: 6% 5% ;
+    color: #464646;
+    flex-wrap: nowrap;
+}
+
+.text-description h1{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.text-description h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4% 0;
+}   
+
+.text-description p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
