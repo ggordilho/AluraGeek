@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>AluraGeek | New Product </title>
+</head>
+<body>
+
+    <header>
+
+        <div class="left-header">
+            <a href="#"><img src="./content/Logo.png" id="logo"></a>
+
+            <div class="search">
+                <input type="text" placeholder="O que deseja buscar?" alt="Campo de Busca" required />
+                <button>
+                    <img src="content/search-bar-icon.svg" alt="Buscar">
+                </button>
+            </div>
+        </div>
+        
+        <a href="./login.html" class="btn-login">
+        
+
+                <h2 class="menu-admin">Menu Administrador</h2>
+                
+         
+        </a>
+
+
+        <!-- Image that just shows up on mobile -->
+        <button class="btn-phone"><img src="./content/search-phone.png"></button>
+
+
+    </header>
+
+    <main>
+
+               <!-- PARTE QUE SÓ APARECERÁ NO SMARTPHONE -->
+        <section class="main-add">
+            <div class="title-add">
+
+                <h1>Adicionar novo produto</h1>
+            </div>
+            <div class="box-add-img">
+                
+                <a href="#">
+                    <img src="./content/plus-sign.svg">
+
+                    <h3>Adicionar uma imagem ao produto</h3>
+                    
+                </a>
+
+            </div>
+
+                   <!-- PARTE QUE SÓ APARECERÁ NO TABLET  -->
+
+            <div class="box-add-tablet">
+                <div class="box-add-tablet-img">
+                    <a href="#">
+                        <img src="./content/img-sign.svg">
+                        <h3>Arraste para adicionar uma imagem para o produto</h3>
+                    </a>
+                </div>
+                <h1>Ou</h1>
+                
+                <a href="#" class="btn-add-to-search">Procure no seu tablet</a>
+         
+            </div>
+
+
+            <!-- PARTE QUE SÓ APARECERÁ NO DESKTOP -->
+            <div class="box-add-desktop">
+                <div class="box-add-desktop-img">
+                    <a href="#">
+                        <img src="./content/img-sign.svg">
+                        <h3>Arraste para adicionar uma imagem para o produto</h3>
+                    </a>
+                </div>
+                <h1>Ou</h1>
+                
+                <a href="#" class="btn-add-to-search">Procure no seu computador</a>
+         
+            </div>
+
+
+            <div class="add-product">
+                <label>Nome do produto     
+                </label>
+                <input type="text" alt="Nome" required>
+            </div>
+            
+            <div class="add-product">
+                <label>Preço do produto       
+                </label>
+                <input type="text" alt="Preço do produto" required>
+            </div>
+            
+            
+            <input type="text" alt="Decrição do produto" placeholder="Descrição do produto" class="add-prod-descrip" required>
+
+
+            <button class="btn-add-prod">Adicionar produto</button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact">
+            <div class="list-contact">
+
+                <img src="./content/Logo.png" class="img-footer">
+
+                <ul class="links">
+                    <li class="footer-links"><a href="#">
+                            <h2>Quem somos nós</h2>
+                        </a></li>
+                    <li class="footer-links"><a href="#">
+                            <h2>Política de privacidade</h2>
+                        </a></li>
+                    <li class="footer-links"><a href="#">
+                            <h2>Programa fidelidade</h2>
+                        </a></li>
+                    <li class="footer-links"><a href="#">
+                            <h2>Nossas lojas</h2>
+                        </a></li>
+                    <li class="footer-links"><a href="#">
+                            <h2>Quero ser franqueado</h2>
+                        </a></li>
+                    <li class="footer-links"><a href="#">
+                            <h2>Anuncie aqui</h2>
+                        </a></li>
+                </ul>
+            </div>
+
+
+            <div class="form-contact">
+
+                <h1>Fale conosco</h1>
+                <input type="text" placeholder="Nome" class="name" required />
+                <input type="text" placeholder="Escreva sua mensagem" class="message" required />
+
+
+                <button class="btn">Enviar mensagem</button>
+
+
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>Desenvolvido por Gabriel Gordilho</p>
+            <p>2021</p>
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>
